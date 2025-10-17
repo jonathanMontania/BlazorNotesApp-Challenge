@@ -1,0 +1,157 @@
+﻿@using BlazorNotesApp.Services.Interfaces;
+@page "/notes";
+@inject INoteService NoteService
+
+
+<div class="page-bg">
+
+    <!-- HEADER -->
+    <div class="text-center mb-4">
+        <h3 class="note-header">Notes</h3>
+    </div>
+
+    <div class="row justify-content-center">
+
+        <!-- CREATE NOTE -->
+        <div class="col-12 col-md-5 note-box">
+            <EditForm Model="newNote" OnValidSubmit="CreateNote">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+
+                <div class="mb-3">
+                    <label class="form-label">Title</label>
+                    <InputText class="form-control" @bind-Value="newNote.Title" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Content</label>
+                    <InputTextArea class="form-control" rows="5" @bind-Value="newNote.Content" />
+                </div>
+
+                <button class="btn btn-primary w-100" type="submit">Create Note</button>
+            </EditForm>
+        </div>
+
+        <!-- LIST NOTES -->
+        <div class="col-12 col-md-5 note-box">
+            <h4 class="text-center note-header mb-3">All Notes</h4>
+
+            @if (notes == null)
+            {
+                <p class="text-center"><em>Loading...</em></p>
+            }
+            else if (!notes.Any())
+            {
+                <p class="text-center"><em>No notes yet</em></p>
+            }
+            else
+            {
+                @foreach (var n in notes)
+                {
+                    <div class="note-box mb-3">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div>
+                                <h5>@n.Title</h5>
+                                <small class="text-muted">@n.UpdatedAt.ToLocalTime().ToString("g")</small>
+                            </div>
+                            <div>
+                                <button class="btn btn-sm btn-warning me-1" @onclick="() => EnableEdit(n.Id)">Edit</button>
+                                <button class="btn btn-sm btn-danger" @onclick="() => DeleteNote(n.Id)">Delete</button>
+                            </div>
+                        </div>
+
+                        @if (editingId == n.Id)
+                        {
+                            <EditForm Model="editNote" OnValidSubmit="@(() => SaveEditConfirmed(n.Id))">
+                                <DataAnnotationsValidator />
+                                <ValidationSummary />
+                                <div class="mt-2">
+                                    <InputText class="form-control mb-2" @bind-Value="editNote.Title" />
+                                    <InputTextArea class="form-control mb-2" rows="4" @bind-Value="editNote.Content" />
+                                    <div class="d-flex justify-content-end gap-2">
+                                        <button class="btn btn-primary btn-sm" type="submit">Save</button>
+                                        <button class="btn btn-secondary btn-sm" type="button" @onclick="CancelEdit">Cancel</button>
+                                    </div>
+                                </div>
+                            </EditForm>
+                        }
+                        else
+                        {
+                            <div class="mt-2">@((new MarkupString(HtmlEncodeSimple(n.Content))))</div>
+                        }
+                    </div>
+                }
+            }
+        </div>
+
+    </div>
+</div>
+
+@code {
+    private List<Note> notes;
+    private Note newNote = new() { Title = string.Empty, Content = string.Empty };
+    private Note editNote = null;
+    private Guid? editingId = null;
+
+    protected override async Task OnInitializedAsync() => await LoadNotes();
+
+    private async Task LoadNotes() => notes = await NoteService.GetAllNotesAsync();
+
+    private async Task CreateNote()
+    {
+        newNote.CreatedAt = DateTime.UtcNow;
+        newNote.UpdatedAt = DateTime.UtcNow;
+        await NoteService.CreateNoteAsync(newNote);
+        newNote = new();
+        await LoadNotes();
+    }
+
+    private async Task EnableEdit(Guid id)
+    {
+        var note = await NoteService.GetNoteById(id);
+        if (note != null)
+        {
+            editNote = new Note
+            {
+                Id = note.Id,
+                Title = note.Title,
+                Content = note.Content,
+                UpdatedAt = DateTime.UtcNow
+            };
+            editingId = note.Id;
+        }
+    }
+
+    private async Task SaveEditConfirmed(Guid id)
+    {
+        var originalNote = notes.FirstOrDefault(n => n.Id == id);
+        if (originalNote != null && editingId != null)
+        {
+            originalNote.Title = editNote.Title;
+            originalNote.Content = editNote.Content;
+            originalNote.UpdatedAt = DateTime.UtcNow;
+            editingId = null;
+            editNote = null;
+        }
+        StateHasChanged();
+    }
+
+    private void CancelEdit()
+    {
+        editingId = null;
+        editNote = null;
+        StateHasChanged();
+    }
+
+    private async Task DeleteNote(Guid id)
+    {
+        await NoteService.DeleteNoteAsync(id);
+        await LoadNotes();
+    }
+
+    private string HtmlEncodeSimple(string s)
+    {
+        if (string.IsNullOrEmpty(s)) return string.Empty;
+        return System.Net.WebUtility.HtmlEncode(s).Replace("\n", "<br />");
+    }
+}

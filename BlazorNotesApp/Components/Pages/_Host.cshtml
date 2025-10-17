@@ -1,0 +1,11 @@
+﻿@page "/"
+@namespace BlazorNotesApp.Pages
+@using BlazorNotesApp.Components
+@using BlazorNotesApp.Components.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "_Layout";
+}
+<component type="typeof(Notes)" render-mode="Server" />
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/app.css" rel="stylesheet" />

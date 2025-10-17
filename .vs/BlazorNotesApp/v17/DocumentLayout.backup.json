@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|c:\\users\\johny\\source\\repos\\blazornotesapp\\blazornotesapp\\components\\pages\\notes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|solutionrelative:blazornotesapp\\components\\pages\\notes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|c:\\users\\johny\\source\\repos\\blazornotesapp\\blazornotesapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|solutionrelative:blazornotesapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|c:\\users\\johny\\source\\repos\\blazornotesapp\\blazornotesapp\\components\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|solutionrelative:blazornotesapp\\components\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|c:\\users\\johny\\source\\repos\\blazornotesapp\\blazornotesapp\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|solutionrelative:blazornotesapp\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|c:\\users\\johny\\source\\repos\\blazornotesapp\\blazornotesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|solutionrelative:blazornotesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|c:\\users\\johny\\source\\repos\\blazornotesapp\\blazornotesapp\\services\\noteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|solutionrelative:blazornotesapp\\services\\noteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|c:\\users\\johny\\source\\repos\\blazornotesapp\\blazornotesapp\\services\\interfaces\\inoteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|solutionrelative:blazornotesapp\\services\\interfaces\\inoteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|c:\\users\\johny\\source\\repos\\blazornotesapp\\blazornotesapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|solutionrelative:blazornotesapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|c:\\users\\johny\\source\\repos\\blazornotesapp\\blazornotesapp\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{681CBD9A-FACA-44FE-A17E-D8FE74F4A6A9}|BlazorNotesApp\\BlazorNotesApp.csproj|solutionrelative:blazornotesapp\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "BlazorNotesApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "ToolTip": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeToolTip": "BlazorNotesApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-17T04:24:57.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "BlazorNotesApp\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\wwwroot\\app.css",
+              "RelativeToolTip": "BlazorNotesApp\\wwwroot\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-17T04:22:44.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorNotesApp\\Program.cs",
+              "ToolTip": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\Program.cs",
+              "RelativeToolTip": "BlazorNotesApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T01:24:13.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "INoteService.cs",
+              "DocumentMoniker": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\Services\\Interfaces\\INoteService.cs",
+              "RelativeDocumentMoniker": "BlazorNotesApp\\Services\\Interfaces\\INoteService.cs",
+              "ToolTip": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\Services\\Interfaces\\INoteService.cs",
+              "RelativeToolTip": "BlazorNotesApp\\Services\\Interfaces\\INoteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T01:12:39.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NoteService.cs",
+              "DocumentMoniker": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\Services\\NoteService.cs",
+              "RelativeDocumentMoniker": "BlazorNotesApp\\Services\\NoteService.cs",
+              "ToolTip": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\Services\\NoteService.cs",
+              "RelativeToolTip": "BlazorNotesApp\\Services\\NoteService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAtwBIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T01:12:45.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "BlazorNotesApp\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\Components\\Routes.razor",
+              "RelativeToolTip": "BlazorNotesApp\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T01:08:06.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\Components\\App.razor",
+              "RelativeDocumentMoniker": "BlazorNotesApp\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\Components\\App.razor",
+              "RelativeToolTip": "BlazorNotesApp\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T01:07:59.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\Components\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "BlazorNotesApp\\Components\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\Components\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "BlazorNotesApp\\Components\\Pages\\_Host.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T01:07:16.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Notes.razor",
+              "DocumentMoniker": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\Components\\Pages\\Notes.razor",
+              "RelativeDocumentMoniker": "BlazorNotesApp\\Components\\Pages\\Notes.razor",
+              "ToolTip": "C:\\Users\\johny\\source\\repos\\BlazorNotesApp\\BlazorNotesApp\\Components\\Pages\\Notes.razor*",
+              "RelativeToolTip": "BlazorNotesApp\\Components\\Pages\\Notes.razor*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T23:48:06.99Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
